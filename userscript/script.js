@@ -17,6 +17,7 @@
     const multiplayerServer = "default"
 
     window.geofsNewHDState = true;
+    window.foxtilionScriptTest = "läuft";
     window.geofs.geoIpUpdate = function() {
         delete window.geofs.api.analytics;
         document.body.classList.add("geofs-hd");
